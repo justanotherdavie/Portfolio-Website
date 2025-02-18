@@ -4,30 +4,35 @@ body {
   align-items: center;
   margin-left: 2px;
   margin-right: 2px;
-  background-image: linear-gradient(blue,violet, black);
+ 
+  /* background-image: linear-gradient(blue,violet, black); */
     /* justify-content: center; */
 }
 h1{
     
-    border: 2px black solid;
+    /* border: 2px black solid; */
     text-align: center;
 }
 nav{
     color: black;
-    background-color: coral;
+    /* background-color: coral; */
     display:block;
-    /* gap:10em; */
+    gap:10em; 
 }
+
 nav a {
     color: #000;
 }
-.fave {
+.intro{
+    border:1px black solid;
+}
+/* .fave {
     background-color: aqua;
 }
 .notfave {
     background-color: gray;
-}
-img {
+} */
+/* img {
     height: 300px;
     width: 60%;
     border: 5px blue solid;
@@ -38,4 +43,4 @@ img {
 }
 img:hover{
     cursor: pointer;
-}
+} */
