@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Portfolio-Website",
+			"path": "."
+		},
+		{
+			"name": "favicon",
+			"path": "../../Downloads/Portofolio-main/Portofolio-main/favicon"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio-Website"
+	}
+}

@@ -5,27 +5,67 @@ body {
   margin-left: 2px;
   margin-right: 2px;
  
-  /* background-image: linear-gradient(blue,violet, black); */
-    /* justify-content: center; */
+
+}
+
+main{
+    margin-left: 150px;
+    padding: 0px 10px;
+}
+footer{
+    border-top: 1px black solid;
+    position:fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 h1{
     
-    /* border: 2px black solid; */
+    border: 2px black solid;
     text-align: center;
 }
-nav{
+
+.sidenav{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #4a4569;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c0c0c;
+    display: block;
+
+  }
+  .sidenav a:hover
+  {
+    color: #fff7f7;
+
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }  
+  
+/* nav{
     color: black;
     /* background-color: coral; */
-    display:block;
+    /* display:block;
     gap:10em; 
-}
+} */
 
-nav a {
+/* nav a {
     color: #000;
-}
-.intro{
-    border:1px black solid;
-}
+} */ 
+
 /* .fave {
     background-color: aqua;
 }
